@@ -32,7 +32,7 @@ n  = 20
 d = 50000
 alpha = 0.7
 output = []
-index = 500
+index = 500 #Subproblem size 
 
 def part( a, s_hint):
     d = len(a)
