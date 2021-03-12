@@ -55,7 +55,7 @@ def median(data, R):
     for j in range(starting_pt, R):
         score_list[j] = n
     
-    #We has counts of every unique element in data. We can use that and the calculated rank 
+    #We have counts of every unique element in data. We can use that and the calculated rank 
     #to get the score for each value 1 to R     
     rank = score_list[:]
     for j in range(R):
