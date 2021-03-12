@@ -17,6 +17,7 @@ numDataSet = 50
 repeat = 10
 
 #Synthetic data generator
+#To find the closest interger in [1,R], we first round to the nearest integer and clip value between [1,R]
 def syntheticData(n, TYPE, param):
     if TYPE == "gauss":
         return np.clip(np.round(np.random.normal(param / 4, param**2 / 10, n)), 1, param)
